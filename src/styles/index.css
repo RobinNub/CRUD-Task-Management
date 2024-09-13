@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #EDE8F5;
+  color: #3D52A0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.task-form {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  margin-bottom: 20px;
+}
+
+.task-list {
+  background-color:  #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.input-field {
+  width: 48%;
+  padding: 8px;
+  border: 1px solid #6e6e6e;
+  border-radius: 4px;
+}
+
+.textarea-field {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #8697C4;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.btn-primary {
+  background-color: #1c3797;
+  color: #FFFFFF;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #2C3E50;
+}
+
+.priority-low {
+  background-color: #00FF00;
+  color: #FFFFFF;
+  padding: 5px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.priority-medium {
+  background-color: #ffef60;
+  color: #000000;
+  padding: 5px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.priority-high {
+  background-color: #FF0000;
+  color: #FFFFFF;
+  padding: 5px;
+  border-radius: 4px;
+  font-weight: bold;
+}
